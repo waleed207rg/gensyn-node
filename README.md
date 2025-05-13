@@ -3,7 +3,7 @@ first step after opening vps
 
 ```bash
 sudo apt update
-
+```
 ```bash
 sudo apt install -y
 ```bash
