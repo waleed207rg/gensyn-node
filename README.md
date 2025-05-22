@@ -20,7 +20,8 @@ screen -S gensyn
 5. **Run the swarm**
 ```bash
 cd $HOME && rm -rf gensyn-testnet && git clone https://github.com/zunxbt/gensyn-testnet.git && chmod +x gensyn-testnet/gensyn.sh && ./gensyn-testnet/gensyn.sh
-- if comes login problem than
+-
+
 ```
 ```
 if any login problem out this commands
