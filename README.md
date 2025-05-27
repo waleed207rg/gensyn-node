@@ -31,9 +31,10 @@ cd $HOME/rl-swarm/hivemind_exp/configs/mac/
 ```
 ```bash
 ls
+```
 ```bash
 grpo-qwen-2.5-0.5b-deepseek-r1.yaml
-
+```
 ```bash
 RL_SWARM_UNSLOTH=False ./run_rl_swarm.sh
 ```
