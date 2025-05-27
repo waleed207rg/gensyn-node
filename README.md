@@ -30,10 +30,10 @@ crtl + c
 cd $HOME/rl-swarm/hivemind_exp/configs/mac/
 ```
 ```bash
-ls
+nano grpo-qwen-2.5-0.5b-deepseek-r1.yaml
 ```
 ```bash
-nano grpo-qwen-2.5-0.5b-deepseek-r1.yaml
+Run cd $HOME/rl-swarm/
 ```
 ```bash
 RL_SWARM_UNSLOTH=False ./run_rl_swarm.sh
