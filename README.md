@@ -23,29 +23,7 @@ cd $HOME && rm -rf gensyn-testnet && git clone https://github.com/zunxbt/gensyn-
 -
 
 ```
-```
-if any login problem out this commands
- 
-```bash
-cd rl-swarm
-```
-```bash
-nano modal-login/app/page.tsx
-```
-```bash
-useEffect(() => {
-  if (!user && !signerStatus.isInitializing) {
-    openAuthModal(); 
-  }
-}, [user, signerStatus.isInitializing]);
 
-login problem will be solved 
-
-now **Run the swarm**
-```
-```bash
-./run_rl_swarm.sh
-```
 after login now use the trick 
 crtl + c
 ```bash
@@ -54,15 +32,12 @@ cd $HOME/rl-swarm/hivemind_exp/configs/mac/
 ```bash
 ls
 ```
-run ‘nano <filename>’ 
-(A) torch_dtype = float32
-(B) bf16 : false
-(C) tf32 : false
-(D) gradient_checkpointing: false
-(E)per_device_train_batch_size: 1
+grpo-qwen-2.5-0.5b-deepseek-r1.yaml
+
 ```bash
 RL_SWARM_UNSLOTH=False ./run_rl_swarm.sh
 ```
+
 
  ## 🔄️ Back up `swarm.pem`
 ### Method 1 (Very Simple)
@@ -70,8 +45,6 @@ RL_SWARM_UNSLOTH=False ./run_rl_swarm.sh
 ```
 [ -f backup.sh ] && rm backup.sh; curl -sSL -O https://raw.githubusercontent.com/zunxbt/gensyn-testnet/main/backup.sh && chmod +x backup.sh && ./backup.sh
 ```
-- It will show something like this in your terminal
-
 
 
 
